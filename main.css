@@ -26,11 +26,37 @@ body{
     border-radius: 3%;
 
 }
+@media (max-width: 1106px){
+    .bigright	{
+        position: absolute;
+        top: 35%;
+        background-color:	white;
+        float:	right;
+        height: 220px;
+        width: 88%;
+        border-radius: 3%;
+        border: 1px solid rgba(34,36,38,.15);
+
+    }
+}
+@media (max-width: 726px){
+    .bigright	{
+        position: absolute;
+        top: 35%;
+        background-color:	white;
+        float:	right;
+        height: 220px;
+        width: 638.88px;
+        border-radius: 3%;
+    }
+}
+
 .right{
     position: relative;
     left: 30px;
     margin: 0px;
     font-size: 35px;
+
 
 }
 .right1{
@@ -39,7 +65,8 @@ body{
     top: 10px;
     padding: 20px;
     height:30px;
-    border: 1px solid rgba(34,36,38,.15);
+    border-top: 1px solid rgba(34,36,38,.15);
+    border-bottom: 1px solid rgba(34,36,38,.15);
 }
 
 
@@ -50,7 +77,6 @@ body{
     top: 10px;
     padding: 14px;
     height:40px;
-    border-bottom: 1px solid rgba(34,36,38,.15);
 }
 .box1{
     position: absolute;
@@ -61,6 +87,19 @@ body{
 
 
 }
+@media (max-width: 1106px){
+    .box1{
+        position: absolute;
+        left: 20px;
+        background-color: #d9dad5;
+        font-size: 20px;
+        border-radius: 10%;
+        width: 83.16px;
+        height: 23px;
+
+
+    }
+}
 .box2{
     position: absolute;
     left: 40%;
@@ -69,6 +108,17 @@ body{
     border-radius: 10%;
 
 
+}
+@media (max-width: 1106px){
+    .box2{
+        position: absolute;
+        left: 150px;
+        background-color: #d9dad5;
+        font-size: 20px;
+        border-radius: 10%;
+
+
+    }
 }
 .box3{
     position: absolute;
@@ -79,16 +129,42 @@ body{
 
 
 }
+@media (max-width: 1106px){
+    .box3{
+        position: absolute;
+        left: 260px;
+        background-color: #d9dad5;
+        font-size: 20px;
+        border-radius: 10%;
+
+
+    }
+}
 .number1{
     position: absolute;
     left: 27%;
     top: 17%;
     border-radius: 50%;
     background-color: #fffc12;
-    border-color: yellow;
+    border-color: rgba(34,36,38,.15);
     font-size: 20px;
     padding: 8px;
 
+}
+@media (max-width: 1106px){
+    .number1{
+        position: absolute;
+        left: 110px;
+        top: 17%;
+        border-radius: 50%;
+        background-color: #fffc12;
+        border-color: rgba(34,36,38,.15);
+        font-size: 20px;
+        padding: 8px;
+        width: 10px;
+        height: 23px;
+
+    }
 }
 .number2{
     position: absolute;
@@ -96,9 +172,23 @@ body{
     top: 17%;
     border-radius: 50%;
     background-color: #fffc12;
-    border-color: yellow;
+    border-color: rgba(34,36,38,.15);
     font-size: 20px;
     padding: 8px;
+}
+@media (max-width: 1106px){
+    .number2{
+        position: absolute;
+        left: 220px;
+        top: 17%;
+        border-radius: 50%;
+        background-color: #fffc12;
+        border-color: rgba(34,36,38,.15);
+        font-size: 20px;
+        padding: 8px;
+        width: 10px;
+        height: 23px;
+    }
 }
 .number3{
     position: absolute;
@@ -106,10 +196,25 @@ body{
     top: 17%;
     border-radius: 50%;
     background-color: #fffc12;
-    border-color: yellow;
+    border-color: rgba(34,36,38,.15);
     font-size: 20px;
     padding: 8px;
 
+}
+@media (max-width: 1106px){
+    .number3{
+        position: absolute;
+        left: 300px;
+        top: 17%;
+        border-radius: 50%;
+        background-color: #fffc12;
+        border-color: rgba(34,36,38,.15);
+        font-size: 20px;
+        padding: 8px;
+        width: 10px;
+        height: 23px;
+
+    }
 }
 .bought{
     position: relative;
@@ -123,6 +228,25 @@ body{
     height: 225px;
     border-radius: 1%;
 }
+@media (max-width: 1106px){
+    .bigleft	{
+        margin-top: 100px;
+        background-color:	white;
+        width: 90%;
+        height: 225px;
+        border-radius: 1%;
+    }
+}
+@media (max-width: 726px){
+    .bigleft	{
+        margin-top: 100px;
+        background-color:	white;
+        width: 640.8px;
+        height: 225px;
+        border-radius: 1%;
+    }
+}
+
 .left1{
     position: relative;
     top: 15px;
@@ -150,7 +274,7 @@ body{
     top: 10px;
     padding: 14px;
     height:19px;
-    border-left:1px solid rgba(34,36,38,.15); ;
+    border-left:1px solid rgba(34,36,38,.15);
     border-bottom: 1px solid rgba(34,36,38,.15);
     border-right:1px solid rgba(34,36,38,.15) ;
     border-radius-top: 3%;
@@ -181,7 +305,7 @@ body{
     left: 80%;
     bottom: 0%;
     background-color: #2738ff;
-    border-color: blue;
+    border-color: rgba(34,36,38,.15);
     font-size: 16px;
     border-top-left-radius: 7%;
     border-bottom-left-radius: 7%;
@@ -217,22 +341,73 @@ body{
     left: 80%;
     top: 15%;
     background-color: #efe9e8;
-    border-color: #ddd7d6;
+    border-color: rgba(34,36,38,.15);
     border-radius: 10%;
     width:10%;
     height: 70%;
-
-
-
 }
+
 .buttonDelete{
     position: absolute;
     left: 92%;
     top: 15%;
     background-color: red;
-    border-color: red;
+    border-color: rgba(34,36,38,.15);
     border-radius: 100%;
     height: 70%;
     width:5%;
 
 }
+.tooltip {
+    border-bottom: 1px dotted #0077AA;
+    cursor: help;
+}
+
+.tooltip::after {
+    background: rgba(0, 0, 0, 0.8);
+    border-radius: 8px 8px 8px 0px;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.5);
+    color: #FFF;
+    content: attr(data-tooltip);
+    margin-top: -24px;
+    opacity: 0;
+    padding: 3px 7px;
+    position: absolute;
+    visibility: hidden;
+    z-index: 1;
+    transition: all 0.4s ease-in-out;
+}
+
+.tooltip:hover::after {
+    opacity: 1; /* Показываем его */
+    visibility: visible;
+}
+.badget{
+    position: fixed;
+    bottom: -7%;
+    left: 2px;
+    width: 150px;
+    height: 70px;
+    border-radius: 10px;
+    background-color: #0077AA;
+    transition: all 1.0s ease-in-out;
+    font-size: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left:40px;
+}
+.badget:hover{
+    transform: translateY(-90%);
+}
+@media	print{
+ .badget{
+     background-color: #FFFFFF;
+     position: fixed;
+     top: 2px;
+     left: 2px;
+     border:1px solid rgba(34,36,38,.15);
+}
+
+
+
+
