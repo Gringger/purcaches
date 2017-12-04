@@ -7,90 +7,52 @@
 </head>
 <body>
 <div class="badget" >Бейдж <br>Тарас Назар</div>
+
+
+
 <div	class="container">
     <div	class="center">
-
         <div	class="bigright">
             <div class="right"><b>Залишилось</b></div>
             <div class="right1">
+                <span class="f1" style="display: none">
                 <span class="box1">Помідори</span>
                 <span class="number1">1</span>
-                <span class="box2">Печиво</span>
-                <span class="number2">1</span>
-                <span class="box3">Сир</span>
-                <span class="number3">1</span>
+                </span>
             </div>
 
             <div class="right2">
-                <span class="bought"><b>Куплено</b></span>
-
+                <div class="bought"><b>Куплено</b></div>
             </div>
 
 
         </div>
 
         <div	class="bigleft">
-  <div class="left1">Назва товару
-      <button class="button tooltip" data-tooltip="Додати товар"	type="button">
-         Додати
+  <div class="left1">
+       <input class ="input" type="text"  placeholder="Назва товару">
+      <button class="button tooltip" data-tooltip="Додати товар"	type="button"> Додати
       </button>
   </div>
-            <div class="left2">Сир
 
+            <div class="left2 first" style="display: none" >
 
-                    <button class="button1 tooltip" data-tooltip="Зменшити кількість"	type="button">
-                        -
-
-                </button>
-                <span class="leftboxQuantity">1</span>
-                <button class="button2 tooltip" data-tooltip="Збільшити кількість"	type="button">
-                    +
-                </button>
-                <button class="buttonBought tooltip" data-tooltip="Підтвердити покупку"	type="button">
-                    Куплено
-
-                </button>
-                <button class="buttonDelete tooltip" data-tooltip="Видалити товар"	type="button">
-                    x
-                </button>
-
+                <div class="title-name" style="font-weight:bold"> Помідори </div>
+                <input class="new-name" type="text" autofocus>
+                <button class="button1 tooltip" data-tooltip="Зменшити кількість"	type="button">-</button>
+                <span class="leftboxQuantity" id="quantity">1</span>
+                <button class="button2 tooltip" data-tooltip="Збільшити кількість"	type="button">+</button>
+                <button class="buttonBought tooltip" data-tooltip="Підтвердити покупку"	type="button">Куплено</button>
+                <button class="buttonUnBought tooltip" data-tooltip="Скасувати покупку"> Не куплено </button>
+                <button class="buttonDelete tooltip" data-tooltip="Видалити товар"	type="button" >x</button>
             </div>
-            <div class="left3">Печиво
-                <button class="button1 tooltip" data-tooltip="Зменшити кількість"	type="button">
-                    -
-                </button>
-                <span class="leftboxQuantity">1</span>
-                <button class="button2 tooltip" data-tooltip="Збільшити кількість"	type="button">
-                    +
-                </button>
-                <button class="buttonBought tooltip" data-tooltip="Підтвердити покупку"	type="button">
-                    Куплено
-
-                </button>
-                <button class="buttonDelete tooltip" data-tooltip="Видалити товар"	type="button">
-                    x
-                </button>
-
-            </div>
-            <div class="left4">Помідори
-                <button class="button1 tooltip" data-tooltip="Зменшити кількість"type="button">
-                    -
-                </button>
-                <span class="leftboxQuantity ">1</span>
-                <button class="button2 tooltip" data-tooltip="Збільшити кількість"	type="button">
-                    +
-                </button>
-                <button class="buttonBought tooltip" data-tooltip="Підтвердити покупку"	type="button">
-                   Куплено
-
-                </button>
-                <button class="buttonDelete tooltip" data-tooltip="Видалити товар" 	type="button">
-                    x
-                </button>
-
         </div>
-        </div>
-
+    </div>
 </div>
-</body>
+    <script	type="text/javascript" src="https://code.jquery.com/jquery-2.1.4.min.js">	</script>
+<script	type="text/javascript" src="main.js">	</script>
+
+        </body>
 </html>
+
+
