@@ -89,7 +89,7 @@ body{
 
 
 }
-@media (max-width: 1106px){
+/*@media (max-width: 1106px){
     .box1{
         position: absolute;
         left: 20px;
@@ -101,7 +101,7 @@ body{
 
 
     }
-}
+}*/
 .box2{
     position: absolute;
     left: 40%;
@@ -152,7 +152,7 @@ body{
     border-radius: 10px;
 
 }
-@media (max-width: 1106px){
+/*@media (max-width: 1106px){
     .number1{
         position: absolute;
         left: 110px;
@@ -166,7 +166,7 @@ body{
         height: 23px;
 
     }
-}
+}*/
 .number2{
     position: absolute;
     left: 60%;
