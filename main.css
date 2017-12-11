@@ -430,22 +430,32 @@ body{
     opacity: 1;
     visibility: visible;
 }
+.jsbuylist{
+    font-size: 30px ;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.created{
+    margin-top: 0px;
+}
 .badget{
     position: fixed;
     bottom: -7%;
     left: 2px;
     width: 150px;
-    height: 70px;
+    height: 80px;
     border-radius: 10px;
     background-color: #0077AA;
     transition: all 1.0s ease-in-out;
     font-size: 20px;
-    padding-top: 20px;
+    padding-top: 10px;
     padding-bottom: 20px;
     padding-left:40px;
+    color: #FFFFFF;
 }
 .badget:hover{
     transform: translateY(-90%);
+    background-color:green;
 }
 @media	print{
     .badget{
@@ -453,8 +463,13 @@ body{
         position: fixed;
         top: 2px;
         left: 2px;
-        border:1px solid rgba(34,36,38,.15);
-    }}
+        border:1px solid;
+        border-color: #0077AA;
+    }
+    .jsbuylist{
+        display: none;
+    }
+}
 
 
 
